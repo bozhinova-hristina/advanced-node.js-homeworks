@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Bob Bobsky",
+    "timeEmployed": "2 years",
+    "salary": 50000,
+    "department": "It managment",
+    "id": "b078ec1e-90b1-4c8b-8b24-5fd0d254db01"
+  },
+  {
+    "name": "Jan Devison",
+    "timeEmployed": "1 years",
+    "salary": 20000,
+    "department": "It works",
+    "id": "6df74d03-75f1-4475-9e90-7a4008ead50c"
+  },
+  {
+    "name": "Bob Bobsky",
+    "timeEmployed": "2 years",
+    "salary": 50000,
+    "department": "It managment",
+    "id": "28abc17a-5026-451e-8f81-16a8963b57e7"
+  }
+]
