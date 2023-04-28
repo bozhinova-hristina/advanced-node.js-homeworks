@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "4d57bdc2-e047-49b4-a0b0-75df9dea2475",
+		"name": "Nest.js-employees",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26276859"
+	},
+	"item": [
+		{
+			"name": "getAllEmployees",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/employees",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getEmployeeByID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/employees/:id",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"employees",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "ij9903939330q"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createEmployee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\":  \"Bob Bobsky\",\r\n  \"timeEmployed\": \"2 years\",\r\n  \"salary\": 50000,\r\n  \"department\": \"It managment\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/employees",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateEmployee",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\":  \"Bob Bobsky\",\r\n  \"timeEmployed\": \"2 years\",\r\n  \"salary\": 50000,\r\n  \"department\": \"It managment\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/employees/28abc17a-5026-451e-8f81-16a8963b57e7",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"employees",
+						"28abc17a-5026-451e-8f81-16a8963b57e7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
